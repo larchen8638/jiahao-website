@@ -1,0 +1,113 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>家豪建筑工程有限公司</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #002244;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #004080;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .case {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #002244;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .chat-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #007bff;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>家豪建筑工程有限公司</h1>
+    <p>专业承接土木工程项目，服务总承包商、开发商与住宅客户</p>
+  </header>
+  
+  <nav>
+    <a href="#about">公司介绍</a>
+    <a href="#cases">客户案例</a>
+    <a href="#contact">联系我们</a>
+  </nav>
+
+  <section id="about">
+    <h2>公司介绍</h2>
+    <p>家豪建筑工程有限公司是一家总部位于美国的专业土木工程承包公司，拥有多年行业经验。我们致力于为总承包商、房地产开发商及私人住宅客户提供高质量的施工服务，项目涵盖地基、结构、道路、排水等各类土木工程。公司秉持“安全第一，质量为本”的理念，赢得客户广泛信任。</p>
+  </section>
+
+  <section id="cases">
+    <h2>客户案例</h2>
+    <div class="case">
+      <h3>绿地广场开发项目</h3>
+      <p>为某大型开发商完成地下结构和排水系统建设，工期提前完成，质量优良。</p>
+    </div>
+    <div class="case">
+      <h3>私人别墅地基工程</h3>
+      <p>为私人客户提供高精度地基施工服务，客户满意度高。</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>联系我们</h2>
+    <p>电话：+16264134536<br />
+       邮箱：jinlong8638642@gmail.com<br />
+       地址：123 Main Street, Los Angeles, CA, USA</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 家豪建筑工程有限公司. 版权所有.</p>
+  </footer>
+
+  <button class="chat-button" onclick="alert('在线客服暂未接入')">在线客服</button>
+</body>
+</html>
