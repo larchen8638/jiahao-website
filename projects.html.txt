@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>客户案例 Projects - 家豪建筑工程有限公司</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>客户案例 Projects</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">首页 Home</a></li>
+          <li><a href="about.html">关于我们 About</a></li>
+          <li><a href="services.html">服务 Services</a></li>
+          <li><a href="projects.html">案例 Projects</a></li>
+          <li><a href="contact.html">联系 Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="projects">
+    <div class="container">
+      <h2>精选工程案例 Selected Projects</h2>
+      <div class="project-item">
+        <img src="assets/img/project1.jpg" alt="住宅开发项目 Residential Development" />
+        <h4>Green Hill 私人住宅开发 Green Hill Private Residential Development</h4>
+        <p>地点：加州旧金山 Location: San Francisco, CA | 工期：2023年3月 - 2023年11月 Duration: Mar 2023 - Nov 2023</p>
+      </div>
+      <div class="project-item">
+        <img src="assets/img/project2.jpg" alt="商业综合体 Commercial Complex" />
+        <h4>北湾商业综合体 North Bay Commercial Complex</h4>
+        <p>地点：加州圣荷西 Location: San Jose, CA | 工期：2022年5月 - 2023年4月 Duration: May 2022 - Apr 2023</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>联系我们 Contact - 家豪建筑工程有限公司</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>联系我们 Contact</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">首页 Home</a></li>
+          <li><a href="about.html">关于我们 About</a></li>
+          <li><a href="services.html">服务 Services</a></li>
+          <li><a href="projects.html">案例 Projects</a></li>
+          <li><a href="contact.html">联系 Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contact">
+    <div class="container">
+      <h2>欢迎与我们联系 Welcome to Contact Us</h2>
+      <form action="#" method="post">
+        <label>姓名 Name:</label>
+        <input type="text" name="name" required />
+        
+        <label>邮箱 Email:</label>
+        <input type="email" name="email" required />
+        
+        <label>留言 Message:</label>
+        <textarea name="message"></textarea>
+        
+        <button type="submit">提交 Submit</button>
+      </form>
+      <p>电话 Phone: +1 (626) 413-4536<br />
+         邮箱 Email: ljin6072@gmail.com<br />
+         地址 Address: 1234 Main St, Los Angeles, CA</p>
+    </div>
+  </section>
+</body>
+</html>
